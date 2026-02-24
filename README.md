@@ -47,6 +47,7 @@ This repository serves as a **central directory** for discovering, comparing, an
 | <img src="https://raw.githubusercontent.com/memovai/mimiclaw/refs/heads/main/assets/banner.png" height="40"> <br> **MimiClaw** | Pocket AI assistant on a $5 ESP32-S3 chip — pure C, no OS, 0.5W, local-first memory on flash, runs 24/7 on USB power | Telegram, WebSocket | [memovai/mimiclaw](https://github.com/memovai/mimiclaw) | 3+ |
 | <img src="https://raw.githubusercontent.com/nearai/ironclaw/main/ironclaw.png" height="40"> <br> **IronClaw** | Security-first Rust assistant — WASM sandboxed tools, prompt injection defense, hybrid search memory, Docker sandbox orchestration | REPL, HTTP, Telegram, Slack, Web Gateway | [nearai/ironclaw](https://github.com/nearai/ironclaw) | 25+ |
 | <img src="https://raw.githubusercontent.com/qwibitai/nanoclaw/main/assets/nanoclaw-logo.png" height="40"> <br> **NanoClaw** | Lightweight alternative you can understand in 8 minutes — agents run in real containers with filesystem isolation | WhatsApp (extensible via skills) | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 15+ |
+| <img src="https://raw.githubusercontent.com/vincenzodomina/supaclaw/main/supaclaw.jpeg" height="40"> <br> **SupaClaw** | Built entirely on Supabase built-in features. Use within your Supabase account or fully self-host. | Telegram (extensible) | [vincenzodomina/supaclaw](https://github.com/vincenzodomina/supaclaw) | 1+ |
 
 <br />
 
@@ -62,6 +63,7 @@ This repository serves as a **central directory** for discovering, comparing, an
 | **MimiClaw** | C | <520KB RAM | Near-instant | Dual-core ESP32-S3 bare-metal agent loop | Local-only flash storage + network allowlists |
 | **IronClaw** | Rust | Low | Fast | Agent loop + Docker orchestrator + WASM plugins | WASM sandbox + credential isolation + prompt injection defense |
 | **NanoClaw** | TypeScript | Low | Fast | Single process + Container isolation | OS-level container sandboxing |
+| **SupaClaw** | TypeScript | Medium | Medium | Postgres + Edge Functions | No system access, Cloud based, JWT Auth |
 
 <br />
 
